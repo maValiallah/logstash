@@ -43,7 +43,7 @@ directory, and replace the contents with the following lines. Make sure `paths` 
 filebeat.inputs:
 - type: log
   paths:
-    - /path/to/file/logstash-tutorial.log <1>
+    - /path/to/file/logstash-tutorial.log/logstash-tutorial-dataset <1>
 output.logstash:
   hosts: ["localhost:5044"]
 --------------------------------------------------------------------------------
